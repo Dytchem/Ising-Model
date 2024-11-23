@@ -1,6 +1,8 @@
 # 二维Ising模型数值模拟
 基于Metropolis算法的程序实现
 
+[![View Ising-Model on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/176263-ising-model)
+
 ## 功能
 - 可指定自旋作用的电子对<α,β>
 - 可指定J，B，网格大小和热化参数，对当前格点进行热化
