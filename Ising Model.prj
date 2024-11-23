@@ -1,0 +1,106 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1880864493" file="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业\Ising Model.prj" location="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业" name="Ising Model" target="target.mlapps" target-name="打包为 App">
+    <param.appname>Ising Model</param.appname>
+    <param.authnamewatermark>黄得清</param.authnamewatermark>
+    <param.email>Dytchem@stu.xjtu.edu.cn</param.email>
+    <param.company>西安交通大学</param.company>
+    <param.icon>${PROJECT_ROOT}\Ising Model_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Ising Model_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Ising Model_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Ising Model_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>二维Ising模型数值模拟：基于Metropolis算法的程序实现</param.summary>
+    <param.description>&lt;ol&gt;&lt;li&gt;可指定自旋作用的电子对&lt;α,β&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可指定J，B，网格大小和热化参数，对当前格点进行热化&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可实时显示当前格点的状态（二维点阵figure直观显示）&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可实时输出当前系统的参量（平均能量h、平均自旋m）&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可根据设定的抽样点计算其他参量（比热c、磁化率χ）&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可设定扫描J和B记录一系列参数下的系统参量值，并绘制出变化曲线&lt;/li&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;li&gt;可同时打开多个窗口，方便相互对比&lt;/li&gt;&lt;/ol&gt;</param.description>
+    <param.screenshot>${PROJECT_ROOT}\标.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>651067b4-c182-426d-8407-064eb377c6d5</param.guid>
+    <unset>
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\demo2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\demo3.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="E:\学习文件\课程\实验\综合物理实验Ⅰ-2" name="大作业" optional="false">E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
