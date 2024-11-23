@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业\IsingModel.prj" location="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业" name="IsingModel" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3529586973" file="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业\IsingModel.prj" location="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业" name="IsingModel" preferred-package-location="E:\学习文件\课程\实验\综合物理实验Ⅰ-2\大作业\IsingModel\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>IsingModel</param.appname>
     <param.icon>${PROJECT_ROOT}\IsingModel_resources\icon.ico</param.icon>
     <param.icons>
@@ -14,7 +14,7 @@
     <param.company>西安交通大学</param.company>
     <param.summary>二维Ising模型数值模拟</param.summary>
     <param.description>基于Metropolis算法的程序实现</param.description>
-    <param.screenshot>E:\Screenshots\屏幕截图 2024-11-23 101933.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}\标.png</param.screenshot>
     <param.guid />
     <param.installpath.string>\西安交通大学\IsingModel\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
@@ -46,11 +46,12 @@
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments 
- Description 
- 	 基于Metropolis算法的程序实现</param.help.text>
+	 input arguments</param.help.text>
     <unset>
       <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
